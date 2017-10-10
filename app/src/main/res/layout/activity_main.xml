@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.androidaccelarate.boasvindasandroideiro.MainActivity">
+
+    <ImageView
+        android:src="@drawable/android_jornada"
+        android:scaleType="centerCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Boas Vindas Androideiro"
+        android:textSize="24sp"
+        android:padding="20dp"
+        android:fontFamily="sans-serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Bora Programar?"
+        android:padding="20dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/Teste"
+        android:padding="20dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:text="Faça o teste aqui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
